@@ -1,0 +1,235 @@
+body
+{
+    margin: 0;
+}
+
+.home
+{
+    padding-top: 0;
+}
+
+.start_links
+{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #b0ced9;
+    padding: 0.5rem 15rem 0.5rem 15rem;
+    text-align: center;
+    position: sticky;
+    opacity: 0.8;
+    font-size: larger;
+    top: 0;
+}
+
+.back-side a img
+{
+    height: 40rem;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: -1rem;
+}
+
+.About_Me
+{
+    top: 0px;    
+    background-color: #659ab0;
+    border-radius: 10px;
+    margin: 30px 20px 0 20px;
+}
+
+.about
+{
+    margin-left: 690px;
+    padding: 2.5rem 0 0 0;
+    font-size: 1.8rem;
+}
+
+.about_2
+{
+    padding-left: 36rem;
+}
+
+.About_Me .Ab
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1rem;
+    line-height: 2rem;
+
+}
+
+.Abb
+{
+    font-size: 1.2rem;
+    padding-right: 180px;
+    padding-left: 180px;
+    line-height: 25px;
+}
+
+.ankertag
+{
+    text-decoration: none;
+    font-size: 1rem;
+    color: #0b0c0d;
+}
+
+.navitems a:hover
+{
+    text-decoration: underline;
+    font-weight: bolder;
+    background-color: #d0a295;
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 4px;
+    margin: 4px 2px;
+    transition: 0.3s;
+}
+
+/* Education */
+
+.Education
+{
+    background-color: #b0ced9;
+}
+
+.main_ed
+{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.25rem;
+}
+
+.centerflex{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2rem;
+}
+
+/* Projects */
+
+.projects
+{
+    background-color: #0b0c0d;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.projects h1
+{
+    font-size: 2rem;
+    padding-top: 2.5rem;
+    color: #b0ced9;
+}
+
+.container
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 1rem;
+    height: 25rem;
+}
+
+.box{
+    width: 21rem;
+    height: 21rem;
+    text-align: center;
+    background-color: #b0ced9;
+    border-radius: 10px;
+    padding: auto;
+    font-size: 17px;
+}
+
+.box p
+{
+    text-align: center;
+    line-height: 25px;
+}
+
+/* Achievements */
+
+.achivements
+{
+    padding-bottom: 0;
+    background-color: #b0ced9;
+}
+
+.achivements .main_ac h1
+{
+    margin-bottom: 0;
+    padding-top: 0;
+}
+
+.achivements .main_ac
+{
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    text-align: center;
+    font-size: 1.2rem;
+} 
+
+.achivements .sub_ac
+{
+    display: flex;
+    justify-content: center;
+    padding-top: 0;
+    margin-top: 0;
+    line-height: 30px;
+    font-size: large;
+}
+
+
+/* Contact */
+
+.contact_me
+{   
+    background-color: #659ab0;
+}
+
+.contact {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    
+}
+  
+.contact .downbar
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 5rem;
+    font-size: 1rem;
+}
+
+.contact .downbar p
+{
+    font-size: 1.05rem;
+}
+
+.social a:hover
+{
+    background-color: #f4511e;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border-radius: 8px;
+    margin: 4px 2px;
+    opacity: 0.5;
+    transition: 0.3s;
+}
+
+.social i
+{
+    font-size: x-large;
+    padding: 0.5rem;
+    justify-content: space-around;
+}
